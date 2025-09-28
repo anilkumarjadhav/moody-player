@@ -1,0 +1,21 @@
+# root .gitignore
+
+# Node
+node_modules/
+.env
+.env.local
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Build outputs
+frontend/build/
+backend/dist/
+backend/uploads/
+
+# OS junk
+.DS_Store
+Thumbs.db

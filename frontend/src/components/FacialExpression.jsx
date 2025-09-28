@@ -39,7 +39,7 @@ export default function FacialExpression({ setSongs }) {
     }
 
     axios
-      .get(`http://localhost:3000/songs?mood=${_expression}`)
+      .get(`https://moody-backend-wc6p.onrender.com/songs?mood=${_expression}`)
       .then((response) => {
         console.log(response.data);
         setSongs(response.data.songs);
